@@ -10,11 +10,11 @@ age = 21
 # String Formatting
 
 # Arguments by position
-#print('My name is {name} and I am {age}'.format(name=name, age=age))
+print('My name is {name} and I am {age}'.format(name=name, age=age))
 
 # F-Strings (3.6+)
 
-#print(f'Hello, my name is {name} and I am {age}')
+print(f'Hello, my name is {name} and I am {age}')
 
 # String Methods
 
