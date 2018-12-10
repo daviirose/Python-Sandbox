@@ -35,7 +35,7 @@ fruits_set.add('Grape')
 # Remove from set
 fruits_set.remove('Grape')
 
-# Add duplicate 
+# Add duplicate Wont added twice
 fruits_set.add('Apples')
 
 # Clear set
