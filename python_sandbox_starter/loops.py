@@ -7,10 +7,10 @@ people = ['Davian', 'Paul', 'Sara', 'Susan']
  #  print(f'Current Person: {person}')
 
 # Break
-#for person in people:
- #   if person == 'Sara':
- #       break
- #   print(f'Current Person: {person}')
+for person in people:
+    if person == 'Sara':
+        break
+    print(f'Current Person: {person}')
 
 # Continue
 #for person in people:

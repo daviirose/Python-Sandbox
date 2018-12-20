@@ -9,7 +9,7 @@ sayHello("Davian")
 # Return values
 def getSum(num1, num2):
     total = num1 + num2
-    return total
+    return total # Return will let you associate your parameter with variables
 
 #print(getSum(3, 4))
 num = getSum(3, 4)
@@ -23,5 +23,9 @@ getSum = lambda num1 , num2 : num1 + num2
 
 print(getSum(10, 3))
 
+def hello(name, lastname): # define the function # passing through parameters
+    fullname = name + lastname # give paramters a variable
+    return fullname # return it so it can associate with variable
 
-
+myfullname = hello('Davian ', 'Perez-Slva') # Call it and give it a variable
+print(myfullname) # print the new variable that holds the function
